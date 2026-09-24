@@ -38,9 +38,7 @@ std::vector<int> calculatePrimeFactors(int n) {
     for (int i = 2; i * i <= n; ++i) {
         if (n % i == 0) {
             std::vector<int> factors = { i };
-
             std::vector<int> remainingFactors = calculatePrimeFactors(n / i);
-
             factors.insert(factors.end(), remainingFactors.begin(), remainingFactors.end());
             return factors;
         }
