@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="WellThatsJustPrimeLab/WellThatsJustPrimeLab.vcxproj" Id="3a296b43-33b7-444f-b458-a62362349136" />
+</Solution>
